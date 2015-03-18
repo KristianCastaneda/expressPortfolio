@@ -18,7 +18,7 @@ router.get('/contact', function(req, res, next) {
 
 /* GET Projects page. */
 router.get('/projects', function(req, res, next) {
-  res.render('index', { title: 'Project' });
+  res.render('index', { title: 'Projects' });
 });
 
 /* GET Services page. */
