@@ -1,3 +1,10 @@
+/*
+    Filename: expressPortfolio
+    Author's Name: Kristian Castaneda
+    Website Name: Personal Portfolio Website (ExpressJS Version)
+    File Description: This website is the personal portfolio website (Assignment) restructured to use ExpressJS and NodeJS
+*/
+
 var express = require('express');
 var router = express.Router();
 

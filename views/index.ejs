@@ -1,36 +1,55 @@
+<!--
+    Filename: expressPortfolio
+    Author's Name: Kristian Castaneda
+    Website Name: Personal Portfolio Website (ExpressJS Version)
+    File Description: This website is the personal portfolio website (Assignment) restructured to use ExpressJS and NodeJS
+-->
+
 <!DOCTYPE html>
 <html>
   <head>
+      <!--Set Title, check index.js for values -->
     <title><%= title %></title>
+    
+    <!--CSS Section -->
     <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="/css/app.css">
   </head>
   <body>
+    <!--Display Header conteant (i.e. logo, navbar) -->
     <% include partials/header.ejs %>
     
+    <!-- if title is Homepage, home.ejs content is displayed -->
     <% if(title == "Homepage") { %>
     <%   include partials/home.ejs %>
     <%   }%>
-      
+    
+     <!-- if title is About Me, about.ejs content is displayed -->
     <% if(title == "About Me") { %>
     <%   include partials/about.ejs %>
     <%   }%>
     
+    <!-- if title is Contact Me, contact.ejs content is displayed -->
     <% if(title == "Contact Me") { %>
     <%   include partials/contact.ejs %>
     <%   }%>
     
+    <!-- if title is Services, services.ejs content is displayed -->
     <% if(title == "Services") { %>
     <%   include partials/services.ejs %>
     <%   }%>
     
+    <!-- if title is Projects, projects.ejs content is displayed -->
     <% if(title == "Projects") { %>
     <%   include partials/projects.ejs %>
     <%   }%>
-      
+    
+    <!--Display Footer content -->  
     <% include partials/footer.ejs %>
+    
+    <!-- Scripts Section-->
     <script src="/Scripts/lib/jquery-2.1.3.min.js"></script>
     <script src="/Scripts/lib/bootstrap.min.js"></script>
     <script src="/Scripts/lib/angular.min.js"></script> 
