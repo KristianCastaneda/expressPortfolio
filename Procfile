@@ -1,1 +1,1 @@
-web: node ps:scale web=1
+web: npm start
