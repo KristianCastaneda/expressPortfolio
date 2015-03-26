@@ -13,5 +13,19 @@
     "express": "~4.12.2",
     "morgan": "~1.5.1",
     "serve-favicon": "~2.2.0"
-  }
+  },
+  "description": "expressJS and NodeJS Assignment",
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KristianCastaneda/expressPortfolio.git"
+  },
+  "author": "Kristian Castaneda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KristianCastaneda/expressPortfolio/issues"
+  },
+  "homepage": "https://github.com/KristianCastaneda/expressPortfolio"
+  
 }
